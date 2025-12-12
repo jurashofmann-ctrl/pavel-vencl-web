@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="cs">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Truhlářství Letohrad | Pavel Vencl – Nábytek na míru</title>
+<meta name="description" content="Zakázkové truhlářství v Letohradě. Kuchyně, vestavěné skříně a nábytek na míru. Kontakt: +420 465 620 720, pv.vencl@seznam.cz.">
+
+<style>
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: #fafafa;
+    color: #222;
+}
+header {
+    background: #1d1d1d;
+    padding: 20px;
+    text-align: center;
+    color: white;
+}
+nav a {
+    color: white;
+    margin: 0 15px;
+    text-decoration: none;
+    font-weight: bold;
+}
+.hero {
+    background: url('https://images.unsplash.com/photo-1503387762-592deb58ef4e') center/cover no-repeat;
+    height: 70vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: white;
+    padding: 20px;
+}
+.hero h1 {
+    font-size: 42px;
+    text-shadow: 2px 2px 10px rgba(0,0,0,0.6);
+}
+.section {
+    max-width: 1100px;
+    margin: 60px auto;
+    padding: 0 20px;
+}
+h2 {
+    font-size: 32px;
+    margin-bottom: 20px;
+}
+.services, .gallery {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+    gap: 20px;
+}
+.card {
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+}
+.card img {
+    width: 100%;
+    border-radius: 8px;
+}
+.contact-box {
+    background: #fff;
+    padding: 25px;
+    border-radius: 10px;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.15);
+}
+label {
+    font-weight: bold;
+    display: block;
+    margin-top: 10px;
+}
+input, textarea {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    border-radius: 6px;
+    border: 1px solid #ccc;
+}
+button {
+    background: #1d1d1d;
+    color: white;
+    border: none;
+    padding: 12px 25px;
+    margin-top: 20px;
+    cursor: pointer;
+    border-radius: 6px;
+    font-size: 16px;
+}
+footer {
+    background: #1d1d1d;
+    color: white;
+    text-align: center;
+    padding: 25px;
+}
+</style>
+
+<!-- JSON-LD -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "LocalBusiness",
+  "name": "Pavel Vencl - Truhlářství",
+  "address": {
+    "@type": "PostalAddress",
+    "streetAddress": "Živnostenská 860",
+    "addressLocality": "Letohrad",
+    "postalCode": "56151",
+    "addressCountry": "CZ"
+  },
+  "telephone": "+420465620720",
+  "email": "pv.vencl@seznam.cz",
+  "description": "Zakázkové truhlářství – kuchyně, ložnice, vestavěné skříně a montáže.",
+  "geo": {
+    "@type": "GeoCoordinates",
+    "latitude": 50.0368669,
+    "longitude": 16.5081658
+  }
+}
+</script>
+
+</head>
+
+<body>
+
+<header>
+    <nav>
+        <a href="#sluzby">Služby</a>
+        <a href="#onas">O nás</a>
+        <a href="#galerie">Galerie</a>
+        <a href="#kontakt">Kontakt</a>
+    </nav>
+</header>
+
+<section class="hero">
+    <div>
+        <h1>Truhlářství Pavel Vencl – Nábytek na míru z Letohradu</h1>
+        <p>Kuchyně • Ložnice • Vestavěné skříně • Montáže</p>
+    </div>
+</section>
+
+<section class="section" id="sluzby">
+    <h2>Služby</h2>
+    <div class="services">
+        <div class="card">
+            <h3>Kuchyně na míru</h3>
+            <p>Moderní i klasické kuchyňské linky s přesným zpracováním.</p>
+        </div>
+        <div class="card">
+            <h3>Vestavěné skříně</h3>
+            <p>Na míru vyráběné skříně s posuvnými i otočnými dveřmi.</p>
+        </div>
+        <div class="card">
+            <h3>Ložnice a pokoje</h3>
+            <p>Kompletní vybavení ložnic, obývacích a dětských pokojů.</p>
+        </div>
+        <div class="card">
+            <h3>Montáž nábytku</h3>
+            <p>Profesionální dodání, montáž a dokončovací práce.</p>
+        </div>
+    </div>
+</section>
+
+<section class="section" id="onas">
+    <h2>O nás</h2>
+    <p>
+        Truhlářství Pavel Vencl působí v Letohradě od začátku 90. let.  
+        Zaměřujeme se na zakázkovou výrobu nábytku na míru: kuchyně, ložnice, vestavěné skříně a interiérový nábytek.  
+        Každý kus vyrábíme ručně v naší dílně s důrazem na přesnost, kvalitu a osobní přístup.
+    </p>
+</section>
+
+<section class="section" id="galerie">
+    <h2>Galerie</h2>
+    <div class="gallery">
+        <div class="card"><img src="https://images.unsplash.com/photo-1556912172-45b7abe8b7dd" alt="Kuchyně na míru"></div>
+        <div class="card"><img src="https://images.unsplash.com/photo-1600585153475-5c7b1e8f9a9f" alt="Interiér truhlářství"></div>
+        <div class="card"><img src="https://images.unsplash.com/photo-1618213837799-25d18e04fbe0" alt="Vestavěná skříň"></div>
+    </div>
+</section>
+
+<section class="section" id="kontakt">
+    <h2>Kontakt</h2>
+    <div class="contact-box">
+        <p><strong>Truhlářství Pavel Vencl</strong><br>
+        Živnostenská 860, 561 51 Letohrad<br>
+        Tel: <a href="tel:+420465620720">+420 465 620 720</a><br>
+        E-mail: <a href="mailto:pv.vencl@seznam.cz">pv.vencl@seznam.cz</a></p>
+
+        <form>
+            <label>Jméno</label>
+            <input type="text" required>
+            <label>E-mail</label>
+            <input type="email">
+            <label>Telefon</label>
+            <input type="tel" required>
+            <label>Popis zakázky</label>
+            <textarea rows="4"></textarea>
+            <button>Odeslat poptávku</button>
+        </form>
+    </div>
+</section>
+
+<footer>
+    © 2025 Truhlářství Pavel Vencl – Všechna práva vyhrazena
+</footer>
+
+</body>
+</html>
